@@ -1,0 +1,201 @@
+/*頭部設定*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://forums.macrumors.com/attachments/cloudspossibly-png.692317/');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.dropdown {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    padding-left: 2px;
+    padding-top: 2px;
+    display: inline-block;
+    background-color: rgb(216,216,216);
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    
+}
+
+.dropdown img {
+    width: 25px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    top: -135px;
+    left: 0;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 1px;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: black;
+    width: 200px;
+}
+
+.dropdown-content a:hover {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content:hover .dropdown-content {
+  display: block;
+}
+
+
+.square {
+	width: 15px;
+    height: 15px;
+    float: left;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.square-1 {
+	width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    float: right;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+}
+
+footer {
+    background-color: rgb(216,216,216);
+    position: sticky;
+    display: inline-block;
+    bottom: 0;
+}
+
+header {
+    background-color: white;
+    border-bottom: 3px solid black;
+    padding-left: 10px;
+    font-family: Arial, Geneva, Helvetica, sans-serif;
+    display: block;
+    position: sticky;
+    top: 0;
+    font-size: 15px;
+    height: 25px;
+    padding-top: 10px;
+}
+
+header img {
+    width: 20px;
+    height: 20px;
+    padding-top: 0px;
+    float: left;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    height: 25px;
+}
+
+header a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.huge {
+    background-image: url('https://forums.macrumors.com/attachments/cloudspossibly-png.692317/');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.huge {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-but {
+    background-color: rgb(216,216,216);
+    position: sticky;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 200px;
+    bottom: 38px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    float: right;
+}
+
+.nav-but img {
+    width: 25px;
+    
+}
+.one {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    max-width: 1000px;
+    margin: 3px;
+    background-color: rgb(216,216,216);
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    color: white;
+    padding: 5px;
+    font-family: Arial;
+    box-shadow: 0px 2px 44px -16px rgba(0,0,0,0.77);
+-webkit-box-shadow: 0px 2px 44px -16px rgba(0,0,0,0.77);
+-moz-box-shadow: 0px 2px 44px -16px rgba(0,0,0,0.77);
+}
+
+.one h1{
+    text-align: left;
+    font-family: Garamond;
+}
+
+.Slogan {
+    width: 90%;
+}
+
+.two {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
