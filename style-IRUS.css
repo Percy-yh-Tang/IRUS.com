@@ -19,6 +19,7 @@ body {
     width: 100%;
     padding-left: 2px;
     padding-top: 2px;
+	box-sizing: border-box;
     display: inline-block;
     background-color: rgb(216,216,216);
     border-top: 1px solid black;
